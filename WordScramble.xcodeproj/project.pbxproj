@@ -13,6 +13,7 @@
 		B06D060E244015E2002948CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06D060D244015E2002948CA /* Assets.xcassets */; };
 		B06D0611244015E2002948CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06D0610244015E2002948CA /* Preview Assets.xcassets */; };
 		B06D0614244015E2002948CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06D0612244015E2002948CA /* LaunchScreen.storyboard */; };
+		B06D061E24402D6C002948CA /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = B06D061D24402D6C002948CA /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B06D0610244015E2002948CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B06D0613244015E2002948CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B06D0615244015E2002948CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06D061D24402D6C002948CA /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,7 @@
 				B06D0607244015E1002948CA /* AppDelegate.swift */,
 				B06D0609244015E1002948CA /* SceneDelegate.swift */,
 				B06D060B244015E1002948CA /* ContentView.swift */,
-				B06D060D244015E2002948CA /* Assets.xcassets */,
-				B06D0612244015E2002948CA /* LaunchScreen.storyboard */,
-				B06D0615244015E2002948CA /* Info.plist */,
-				B06D060F244015E2002948CA /* Preview Content */,
+				B06D061C24402D52002948CA /* Resources */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
@@ -73,6 +72,18 @@
 				B06D0610244015E2002948CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B06D061C24402D52002948CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B06D061D24402D6C002948CA /* start.txt */,
+				B06D060D244015E2002948CA /* Assets.xcassets */,
+				B06D0612244015E2002948CA /* LaunchScreen.storyboard */,
+				B06D0615244015E2002948CA /* Info.plist */,
+				B06D060F244015E2002948CA /* Preview Content */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06D0614244015E2002948CA /* LaunchScreen.storyboard in Resources */,
+				B06D061E24402D6C002948CA /* start.txt in Resources */,
 				B06D0611244015E2002948CA /* Preview Assets.xcassets in Resources */,
 				B06D060E244015E2002948CA /* Assets.xcassets in Resources */,
 			);
