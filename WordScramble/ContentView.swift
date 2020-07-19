@@ -31,6 +31,7 @@ struct ContentView: View {
                     Image(systemName: "\($0.count).circle")
                     Text($0)
                 }
+                .listStyle(InsetGroupedListStyle())
 
                 Text("Score: \(currentScore)")
                     .font(.title)
